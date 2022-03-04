@@ -12,7 +12,7 @@ function App() {
 
   const startTimer = () => {
     //Change the Date("") to make your CountDown to works
-    const countDownDate = new Date("03-05-22, 13:00:00").getTime();
+    const countDownDate = new Date("12-31-22, 23:59:59").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
 
