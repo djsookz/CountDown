@@ -1,6 +1,6 @@
 import "./App.css";
 import Clock from "./components/Clock";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 function App() {
   const [timerDays, setTimerDays] = useState();
