@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
 
-const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
+const Moment = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
   return (
     <div className="flex h-screen items-center justify-center bg-gradient-to-b from-gray-900 to-gray-600">
       <section className=" flex h-[300px] w-[600px]  items-center justify-center bg-gradient-to-r from-emerald-700 to-teal-900 rounded-xl border-2">
@@ -32,10 +32,10 @@ const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
   );
 };
 
-Clock.defaultProps = {
+Moment.defaultProps = {
   timerDays: "0",
   timerHours: "0",
   timerMinutes: "0",
   timerSeconds: "0",
 };
-export default Clock;
+export default Moment;

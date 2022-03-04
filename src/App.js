@@ -1,5 +1,5 @@
 import "./App.css";
-import Clock from "./components/Clock";
+import Moment from "./components/Moment";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
   });
   return (
     <div className="App">
-      <Clock
+      <Moment
         timerDays={timerDays}
         timerHours={timerHours}
         timerMinutes={timerMinutes}
