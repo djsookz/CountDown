@@ -1,11 +1,6 @@
 import "./App.css";
-<<<<<<< HEAD
 import Moment from "./components/Moment";
 import { useState, useEffect } from "react";
-=======
-import Clock from "./components/Clock";
-import { useState} from "react";
->>>>>>> 876156100b9a74dfa9ff2bdd167ce02bcfcd9997
 
 function App() {
   const [timerDays, setTimerDays] = useState();
